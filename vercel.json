@@ -1,10 +1,10 @@
-```json
+```json id="x7m2kp"
 {
   "version": 2,
-  "builds": [
+  "routes": [
     {
-      "src": "index.html",
-      "use": "@vercel/static"
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
