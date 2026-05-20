@@ -1,0 +1,54 @@
+```css
+body{
+    margin:0;
+    font-family:Arial;
+    background:#020817;
+    color:white;
+}
+
+.hero{
+    text-align:center;
+    padding:120px 20px;
+}
+
+.hero h1{
+    font-size:64px;
+    color:#00F5D4;
+}
+
+.hero p{
+    font-size:22px;
+    color:#94A3B8;
+}
+
+.buttons{
+    margin-top:30px;
+}
+
+.buttons a{
+    text-decoration:none;
+    color:white;
+    background:#0F172A;
+    border:1px solid #00F5D4;
+    padding:14px 28px;
+    border-radius:12px;
+    margin:10px;
+    display:inline-block;
+}
+
+.features{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    padding:60px;
+}
+
+.card{
+    background:#0F172A;
+    padding:30px;
+    border-radius:20px;
+    width:300px;
+    border:1px solid #1E293B;
+}
+```
